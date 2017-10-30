@@ -3,7 +3,8 @@ module.exports = {
     "plugins": [
         "react",
         "jsx-a11y",
-        "import"
+        "import",
+        'meteor',
     ],
     rules:{
         "linebreak-style": [2, "windows"],
@@ -13,6 +14,7 @@ module.exports = {
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "jquery": true
+        "jquery": true,
+        'meteor': true,        
       },
 };
